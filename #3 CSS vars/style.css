@@ -1,0 +1,46 @@
+:root {
+	--spacing:10px;
+	--base-color:#fcfcfc;
+	--blur: 0px;
+}
+
+body{
+	margin:0;
+	color:white;
+}
+
+p {
+	margin:0;
+}
+
+.container {
+	height: 100vh;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.controls {
+	padding:50px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-family: "helvetica",sans-serif;
+	font-size: 20px;
+}
+
+.pic {
+	padding: var(--spacing);
+	background-color: var(--base-color);
+
+}
+
+.img {
+	width: 210px;
+	height: 280px;
+	filter: blur(var(--blur));
+	
+}
+
