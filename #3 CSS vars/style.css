@@ -34,6 +34,8 @@ p {
 .pic {
 	padding: var(--spacing);
 	background-color: var(--base-color);
+	width: 210px;
+	height: 280px;
 
 }
 
